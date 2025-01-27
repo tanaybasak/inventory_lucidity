@@ -12,7 +12,6 @@ const AppNavbar: React.FC = () => {
   return (
     <Navbar bg="light" expand="lg" className="shadow-sm px-4 py-2 backgrnd">
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
         <Form className="ms-auto d-flex align-items-center gap-3">
           <Form.Label className="mb-0">User</Form.Label>
           <Form.Check
@@ -23,7 +22,6 @@ const AppNavbar: React.FC = () => {
           />
           <Form.Label className="mb-0">Admin</Form.Label>
         </Form>
-      </Navbar.Collapse>
     </Navbar>
   );
 };

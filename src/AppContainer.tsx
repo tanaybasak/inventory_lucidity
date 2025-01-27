@@ -38,7 +38,7 @@ const AppContainer: React.FC = () => {
 
   // Render data if fetched successfully
   return (
-    <div>
+    <div className="h100vh">
       <AppNavbar />
       <div className="px-4 py-4 backgrnd h-100">
         <AppCard />

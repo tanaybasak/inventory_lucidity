@@ -31,7 +31,7 @@ const EditModal: React.FC<EditModalProps> = ({
   setModalData,
 }) => {
   return (
-    <Modal show={show} onHide={onClose} centered>
+    <Modal show={show} onHide={onClose} centered className="modal">
       <Modal.Header closeButton>
         <Modal.Title>Edit Item</Modal.Title>
       </Modal.Header>
@@ -104,7 +104,7 @@ const EditModal: React.FC<EditModalProps> = ({
         <Button variant="secondary" onClick={onClose}>
           Cancel
         </Button>
-        <Button variant="primary" onClick={onSave}>
+        <Button variant="primary" onClick={onSave} className="btn_modal">
           Save
         </Button>
       </Modal.Footer>
