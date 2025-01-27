@@ -26,3 +26,6 @@ Make sure you have the following installed on your system:
    ```bash
    npm install
 
+4. Run Command
+   ```bash
+   npm run dev
