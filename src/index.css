@@ -1,12 +1,17 @@
 
 
 .h100vh {
-  height: calc(100vh - 40px); /* Adjust 20px based on your header/footer/margins */
+  height: calc(100vh - 40px); 
+}
+
+.card {
+  background-color: #023020 !important;
+
 }
 .card_pad {
-  padding: 30px 10px;
-  background-color: #023020;
+  padding: 30px 25px;
   color: #fff !important;
+  border-radius: 10px;
 }
 
 .backgrnd {
