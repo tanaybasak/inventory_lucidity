@@ -1,4 +1,4 @@
-# React App with Vite  
+# Inventory Management Application
 
 This project is a React application bootstrapped with [Vite](https://vitejs.dev/).  
 
