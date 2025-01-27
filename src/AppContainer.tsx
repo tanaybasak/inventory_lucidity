@@ -5,6 +5,7 @@ import { AppDispatch } from "./redux/strore";
 import AppTable from "./components/AppTable";
 import AppNavbar from "./components/AppNavbar";
 import AppCard from "./components/AppCard";
+import Loader from "./components/Loader";
 
 // Define the type for the state from Redux store
 interface RootState {
@@ -29,7 +30,7 @@ const AppContainer: React.FC = () => {
 
   // Conditional rendering based on loading and error states
   if (loading) {
-    return <div>Loading...</div>;
+    return <Loader />;
   }
 
   if (error) {
